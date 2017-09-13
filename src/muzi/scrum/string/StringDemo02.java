@@ -23,5 +23,6 @@ class StringDemo02 {
         System.out.println("s.indexOf:" + s.indexOf("l", 4));
         System.out.println("s.substring:" + s.substring(4));
         System.out.println("s.substring:" + s.substring(3, 8));
+        System.out.println("s:" + s);
     }
 }
