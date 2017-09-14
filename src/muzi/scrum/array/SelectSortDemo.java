@@ -8,12 +8,16 @@ class SelectSortDemo {
     public static void main(String[] args) {
         int[] arr = {24, 69, 80, 57, 13, 4, 98, 45};
         for (int x = 0; x < arr.length -1; x++) {
+            int key = x;
             for (int i = x + 1; i < arr.length; i++) {
-                if (arr[x] > arr[i]) {
-                    int tmp = arr[i];
-                    arr[i] = arr[x];
-                    arr[x] = tmp;
+                if (arr[key] > arr[i]) {
+                    key = i;
                 }
+            }
+            if (x != key) {
+                int tmp = arr[x];
+                arr[x] = arr[key];
+                arr[key] = tmp;
             }
             printArray(arr);
         }
