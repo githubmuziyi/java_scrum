@@ -3,7 +3,7 @@ package muzi.scrum.array;
 /**
  * Created by muzi on 2017/9/15.
  */
-class ArrayDemo {
+class BubboDemo {
 
     public static void main(String[] args) {
         int[] arr = {24, 69, 80, 57, 13, 4, 98, 45};
