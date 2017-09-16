@@ -1,21 +1,23 @@
-package muzi.scrum.array;
+package muzi.scrum.algorithm;
 
 /**
  * Created by muzi on 2017/9/15.
  */
-class BubboDemo {
+class SelectSortDemo {
 
     public static void main(String[] args) {
         int[] arr = {24, 69, 80, 57, 13, 4, 98, 45};
-        System.out.println("排序前：");
-        printArray(arr);
-        for (int j = arr.length; j > 1; j--) {
-            for (int i = 0; i < j - 1; i++) {
-                if (arr[i] > arr[i + 1]) {
-                    int tmp = arr[i];
-                    arr[i] = arr[i + 1];
-                    arr[i + 1] = tmp;
+        for (int x = 0; x < arr.length -1; x++) {
+            int key = x;
+            for (int i = x + 1; i < arr.length; i++) {
+                if (arr[key] > arr[i]) {
+                    key = i;
                 }
+            }
+            if (x != key) {
+                int tmp = arr[x];
+                arr[x] = arr[key];
+                arr[key] = tmp;
             }
             printArray(arr);
         }

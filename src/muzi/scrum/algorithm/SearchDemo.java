@@ -1,4 +1,4 @@
-package muzi.scrum.array;
+package muzi.scrum.algorithm;
 
 /**
  * Created by muzi on 2017/9/15.
