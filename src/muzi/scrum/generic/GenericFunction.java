@@ -6,7 +6,10 @@ package muzi.scrum.generic;
  */
 class GenericFunction {
 
-    public <T> void show(T t) {
+    public <T> T show1(T t) {
+        return t;
+    }
+    public <T> void show2(T t) {
         System.out.println(t);
     }
 }
@@ -14,8 +17,8 @@ class GenericFunction {
 class GenericFunctionTest {
     public static void main(String[] args) {
         GenericFunction gf = new GenericFunction();
-        gf.show("hello");
-        gf.show(100);
-        gf.show(true);
+        System.out.println(gf.show1("hello"));
+        gf.show2(100);
+        gf.show2(true);
     }
 }

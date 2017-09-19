@@ -1,6 +1,7 @@
 package muzi.scrum.generic;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.ListIterator;
 
 /**
@@ -35,6 +36,22 @@ class GenericDemo {
         while (lit.hasNext()) {
             String s = lit.next();
             System.out.println(s);
+        }
+
+        /**
+         * 增强for 简化了数组和集合的遍历,是用来替代迭代器的，底部实现就是迭代器
+         * 增强for的目标不能为null，在使用之前做非null判断
+         */
+        int[] arr = {1, 2, 3, 4};
+        for (int x : arr) {
+            System.out.println(x);
+        }
+        List<String> list = null;
+        if (list != null) {
+            for (String s :
+                    list) {
+                System.out.println(s);
+            }
         }
     }
 }
