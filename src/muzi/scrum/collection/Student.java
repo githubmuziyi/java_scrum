@@ -2,8 +2,9 @@ package muzi.scrum.collection;
 
 /**
  * Created by muzi on 2017/9/10.
+ * 如果一个类的元素想要能够自然排序，就必须实现自然排序接口Comparable
  */
-class Student implements Cloneable {
+class Student implements Cloneable, Comparable<Student> {
 
     private String name = null;
     private int age = 0;
@@ -75,5 +76,12 @@ class Student implements Cloneable {
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        //根据排序规则
+        int num =  this.age - o.age;
+        return num == 0 ? this.name.compareTo(o.name) : num;
     }
 }
