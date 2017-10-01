@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5206c42-def1-4c51-8460-f46bade8b6f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/io/FileWriteReadDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/io/InputStreamReaderDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/io/OutputStreamWriterDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/string/CharsetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/io/FileIoTest.class" afterPath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/io/FileIoTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/io/BufferedDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/io/BufferedReaderDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/io/BufferedWriterDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muzi/scrum/io/FileIoTest.java" afterPath="$PROJECT_DIR$/src/muzi/scrum/io/FileIoTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdir/fos.md" afterPath="$PROJECT_DIR$/testdir/fos.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdir/fos1.md" afterPath="$PROJECT_DIR$/testdir/fos1.md" />
     </list>
     <ignored path="java_scrum.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CharsetDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/string/CharsetDemo.java">
+      <file leaf-file-name="BufferedWriterDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/BufferedWriterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutputStreamWriterDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/OutputStreamWriterDemo.java">
+      <file leaf-file-name="BufferedReaderDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/BufferedReaderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="345">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,26 +65,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputStreamReaderDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/InputStreamReaderDemo.java">
+      <file leaf-file-name="BufferedDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/BufferedDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileWriteReadDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/FileWriteReadDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="fos.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdir/fos.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -114,9 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/muzi/scrum/collection/ListDemo.java" />
-        <option value="$PROJECT_DIR$/src/muzi/scrum/collection/VectorDemo.java" />
-        <option value="$PROJECT_DIR$/src/muzi/scrum/collection/MyStack.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/generic/ObjectTool.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/generic/GenericInterface.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/generic/GenericExtends.java" />
@@ -162,9 +156,12 @@
         <option value="$PROJECT_DIR$/src/muzi/scrum/io/FileIoTest.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/string/CharsetDemo.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/io/OutputStreamWriterDemo.java" />
-        <option value="$PROJECT_DIR$/testdir/fos.md" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/io/InputStreamReaderDemo.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/io/FileWriteReadDemo.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/io/BufferedWriterDemo.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/io/BufferedReaderDemo.java" />
+        <option value="$PROJECT_DIR$/testdir/fos.md" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/io/BufferedDemo.java" />
       </list>
     </option>
   </component>
@@ -377,67 +374,7 @@
       <recent name="$PROJECT_DIR$/src/muzi/scrum/array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileWriteReadDemo">
-    <configuration default="false" name="FileIoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="muzi.scrum.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="muzi.scrum.io.FileIoTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_scrum" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CharsetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="muzi.scrum.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="muzi.scrum.string.CharsetDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_scrum" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="OutputStreamWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="muzi.scrum.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="muzi.scrum.io.OutputStreamWriterDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_scrum" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BufferedDemo">
     <configuration default="false" name="InputStreamReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -466,6 +403,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="muzi.scrum.io.FileWriteReadDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_scrum" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BufferedWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="muzi.scrum.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="muzi.scrum.io.BufferedWriterDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_scrum" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BufferedReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="muzi.scrum.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="muzi.scrum.io.BufferedReaderDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_scrum" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BufferedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="muzi.scrum.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="muzi.scrum.io.BufferedDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -893,19 +890,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FileIoTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CharsetDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.OutputStreamWriterDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.InputStreamReaderDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FileWriteReadDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.InputStreamReaderDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FileWriteReadDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BufferedWriterDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BufferedReaderDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BufferedDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FileWriteReadDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InputStreamReaderDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.OutputStreamWriterDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CharsetDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FileIoTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BufferedDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BufferedReaderDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BufferedWriterDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FileWriteReadDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InputStreamReaderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -934,12 +931,12 @@
       <workItem from="1506435488857" duration="12231000" />
       <workItem from="1506701473305" duration="9187000" />
       <workItem from="1506826705000" duration="1319000" />
-      <workItem from="1506835020465" duration="4511000" />
+      <workItem from="1506835020465" duration="6372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151912000" />
+    <option name="totallyTimeSpent" value="153773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -966,7 +963,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14802982" sideWeight="0.49627262" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1022,34 +1019,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/map/LinkedHashMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/map/HashMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/map/MapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/array/ArraysDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1371,27 +1340,8 @@
         <state relative-caret-position="255">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdir/fos.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
@@ -1399,16 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/InputStreamReaderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1430,11 +1370,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/FileWriteReadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/BufferedWriterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/BufferedReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="364" column="30" selection-start-line="364" selection-start-column="27" selection-end-line="364" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdir/fos.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/InputStreamReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/BufferedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
