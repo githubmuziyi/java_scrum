@@ -11,8 +11,8 @@ class FileIoTest {
         long start = System.currentTimeMillis();
         //copyFile1("./testdir/fos.md", "./testdir/fos1.md");
         //copyFile2("./testdir/fos.md", "./testdir/fos2.md");
-        copyFile3("./testdir/fos.md", "./testdir/fos3.md");
-        //copyFile4("./testdir/fos.md", "./testdir/fos4.md");
+        //copyFile3("./testdir/fos.md", "./testdir/fos3.md");
+        copyFile4("./testdir/fos.md", "./testdir/fos4.md");
         long end = System.currentTimeMillis();
         System.out.println("共耗时" + (end - start) + "毫秒");
     }
