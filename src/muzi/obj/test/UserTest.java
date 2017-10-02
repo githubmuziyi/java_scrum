@@ -2,6 +2,7 @@ package muzi.obj.test;
 
 import muzi.obj.dao.UserDao;
 import muzi.obj.dao.impl.UserDaoImpl;
+import muzi.obj.dao.impl.UserIODaoLmpl;
 import muzi.obj.pojo.User;
 
 import java.util.Scanner;
@@ -13,7 +14,8 @@ import java.util.Scanner;
 class UserTest {
 
     public static void main(String[] args) {
-        UserDao ud = new UserDaoImpl();
+        //UserDao ud = new UserDaoImpl();
+        UserDao ud = new UserIODaoLmpl();
         while (true) {
             Scanner sc = new Scanner(System.in);
             String choiceString = sc.nextLine();
