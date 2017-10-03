@@ -17,6 +17,7 @@ import java.util.List;
  *      max(Collection<?> coll) 最大值
  *      reverse(List<?> list) 反转
  *      shuffle(List<?> list) 随机置换
+ *      获取线程安全的集合对象
  */
 class CollectionsDemo {
 
@@ -36,5 +37,10 @@ class CollectionsDemo {
         System.out.println(list);
         Collections.shuffle(list);
         System.out.println(list);
+
+        /**
+         * 一般不用Vector集合，通过该方法系列可以生成线程安全的集合对象
+         */
+        List<String> list1 = Collections.synchronizedList(new ArrayList<>());
     }
 }
