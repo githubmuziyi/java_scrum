@@ -10,6 +10,9 @@ package muzi.scrum.thread;
  * 等待唤醒机制
  *  Object类中提供的方法
  *      wait()
+ *          和sleep()的区别：
+ *              sleep() 必须指定一个时间，调用不释放锁对象
+ *              waiT() 可以指定时间也可以不指定时间，调用是释放锁
  *      notify()
  *      notifyAll()
  *  为什么这些方法不在Thread类中定义呢？
