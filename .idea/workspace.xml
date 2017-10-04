@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5206c42-def1-4c51-8460-f46bade8b6f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketRunnable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/thread/MyThreadDemo.class" afterPath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/thread/MyThreadDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/DieLock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/DieLockDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/MyLock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/SellerTicketLock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/collections/CollectionsDemo.class" afterPath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/collections/CollectionsDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/thread/SellTicketDemo.class" afterPath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/thread/SellTicketDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/thread/SellTicketRunnable.class" afterPath="$PROJECT_DIR$/out/production/java_scrum/muzi/scrum/thread/SellTicketRunnable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muzi/scrum/collections/CollectionsDemo.java" afterPath="$PROJECT_DIR$/src/muzi/scrum/collections/CollectionsDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketDemo.java" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketRunnable.java" afterPath="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketRunnable.java" />
     </list>
     <ignored path="java_scrum.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,41 +46,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SellTicketDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SellTicketRunnable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketRunnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectionsDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/collections/CollectionsDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SellTicket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellTicket.java">
+      <file leaf-file-name="DieLockDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/DieLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DieLock.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/DieLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/MyLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -103,10 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/muzi/scrum/map/HashMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/muzi/scrum/map/LinkedHashMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/muzi/scrum/map/TreeMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/muzi/scrum/map/HashtableDemo.java" />
         <option value="$PROJECT_DIR$/src/muzi/obj/test/PokerDemo.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/exception/ExceptionDemo.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/exception/ThrowDemo.java" />
@@ -149,11 +142,15 @@
         <option value="$PROJECT_DIR$/src/muzi/scrum/thread/ThreadStop.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/thread/ThreadRunnable.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/thread/ThreadRunnableDemo.java" />
-        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/MyThreadDemo.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicket.java" />
-        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketDemo.java" />
-        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketRunnable.java" />
         <option value="$PROJECT_DIR$/src/muzi/scrum/collections/CollectionsDemo.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/SellerTicketLock.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketDemo.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/MyThreadDemo.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketRunnable.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/MyLock.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/DieLock.java" />
+        <option value="$PROJECT_DIR$/src/muzi/scrum/thread/DieLockDemo.java" />
       </list>
     </option>
   </component>
@@ -287,32 +284,6 @@
               <option name="myItemId" value="muzi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scrum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_scrum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_scrum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -336,27 +307,7 @@
       <recent name="$PROJECT_DIR$/src/muzi/scrum/array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SellTicketDemo">
-    <configuration default="false" name="PropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="muzi.scrum.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="muzi.scrum.io.PropertiesDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_scrum" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.DieLockDemo">
     <configuration default="false" name="NioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -425,6 +376,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="muzi.scrum.thread.SellTicketDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_scrum" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DieLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="muzi.scrum.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="muzi.scrum.thread.DieLockDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -852,19 +823,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PropertiesDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NioDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyThreadDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ThreadRunnableDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SellTicketDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.NioDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyThreadDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ThreadRunnableDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SellTicketDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DieLockDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SellTicketDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ThreadRunnableDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyThreadDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NioDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PropertiesDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DieLockDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SellTicketDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ThreadRunnableDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyThreadDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NioDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -895,12 +866,12 @@
       <workItem from="1506826705000" duration="1319000" />
       <workItem from="1506835020465" duration="10081000" />
       <workItem from="1506864300725" duration="13352000" />
-      <workItem from="1506950451491" duration="20052000" />
+      <workItem from="1506950451491" duration="22675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190886000" />
+    <option name="totallyTimeSpent" value="193509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -922,12 +893,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2571885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21405493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2253635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15347335" sideWeight="0.49627262" order="1" side_tool="false" content_ui="tabs" />
@@ -983,37 +954,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/string/StringBufferDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/string/StringBuilderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/io/BufferedReaderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/obj/test/MyBufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/muzi/obj/test/CopyDirAndFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -1386,21 +1326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/MyThread.java">
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/collections/CollectionsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/ThreadStop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="142">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1413,14 +1342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/MyThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-593">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/ThreadRunnableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1429,35 +1350,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellTicket.java">
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/ThreadStop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="390">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/MyThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="405">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/collections/CollectionsDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellerTicketLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="495">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/SellTicketDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/MyLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/DieLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/muzi/scrum/thread/DieLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

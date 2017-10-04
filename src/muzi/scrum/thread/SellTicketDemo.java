@@ -25,8 +25,17 @@ class SellTicketDemo {
         Thread thread1 = new Thread(sellTicketRunnable, "窗口1");
         Thread thread2 = new Thread(sellTicketRunnable, "窗口2");
         Thread thread3 = new Thread(sellTicketRunnable, "窗口3");
-        thread1.start();
-        thread2.start();
-        thread3.start();
+        //thread1.start();
+        //thread2.start();
+        //thread3.start();
+
+        //方式3
+        SellerTicketLock sellerTicketLock = new SellerTicketLock();
+        Thread thread4 = new Thread(sellerTicketLock, "窗口1");
+        Thread thread5 = new Thread(sellerTicketLock, "窗口2");
+        Thread thread6 = new Thread(sellerTicketLock, "窗口3");
+        thread4.start();
+        thread5.start();
+        thread6.start();
     }
 }

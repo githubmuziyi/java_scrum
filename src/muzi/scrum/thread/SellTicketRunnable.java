@@ -25,6 +25,7 @@ package muzi.scrum.thread;
  *              解决了多线的线程安全问题
  *          同步的弊端：
  *              锁判断，效率降低
+ *              可能存在死锁问题
  *          同步方法的格式：
  *              synchronized 关键字加到方法上    synchronized private void seller()
  *              同步方法的锁对象：
