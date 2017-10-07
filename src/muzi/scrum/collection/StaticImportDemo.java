@@ -10,7 +10,6 @@ package muzi.scrum.collection;
  *  2.如果用多个同名的静态方法，容易不知道使用谁，这个时候必须加前缀
  */
 
-import static java.lang.Math.max;
 import static java.lang.Math.abs;
 
 class StaticImportDemo {
