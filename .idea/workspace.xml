@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5206c42-def1-4c51-8460-f46bade8b6f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/enums/Direction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/enums/DirectionEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/muzi/scrum/reflect/Working.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/muzi/scrum/collection/StaticImportDemo.java" afterPath="$PROJECT_DIR$/src/muzi/scrum/collection/StaticImportDemo.java" />
-    </list>
+    <list default="true" id="b5206c42-def1-4c51-8460-f46bade8b6f7" name="Default" comment="" />
     <ignored path="java_scrum.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,31 +34,7 @@
     <favorites_list name="java_scrum" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DirectionEnum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/muzi/scrum/enums/DirectionEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="72" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
-              <folding>
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,28 +170,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java_scrum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_scrum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_scrum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scrum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -831,12 +779,12 @@
       <workItem from="1506835020465" duration="10081000" />
       <workItem from="1506864300725" duration="13352000" />
       <workItem from="1506950451491" duration="33978000" />
-      <workItem from="1507127962188" duration="28004000" />
+      <workItem from="1507127962188" duration="28152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232816000" />
+    <option name="totallyTimeSpent" value="232964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1411,8 +1359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/muzi/scrum/enums/DirectionEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="72" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
+        <state relative-caret-position="240">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="e#328#329#0" expanded="true" />
             <element signature="e#375#376#0" expanded="true" />
