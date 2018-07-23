@@ -23,7 +23,6 @@ class MyThread extends Thread {
      *
      * @see #start()
      * @see #stop()
-     * @see #Thread(ThreadGroup, Runnable, String)
      */
     @Override
     public void run() {
