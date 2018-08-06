@@ -1,0 +1,11 @@
+file:
+  excle:
+    parse:
+      bank:
+        xinye: defaultResover,xinYeResover
+        jiaotong: defaultResover,jiaoTongResover01,jiaoTongResover02
+      loan:
+        xinhehui: xinhehuiResover
+        kuaidai: kuaidaiResover
+      other:
+        wangYiXinQiu: xinQinuResover
