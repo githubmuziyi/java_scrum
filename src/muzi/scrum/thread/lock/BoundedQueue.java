@@ -37,7 +37,7 @@ public class BoundedQueue<T> {
                 notFull.await();
             }
             items[addIndex] = t;
-            if (++count == items.length) {
+            if (++addIndex == items.length) {
                 addIndex = 0;
             }
             ++count;
@@ -66,6 +66,15 @@ public class BoundedQueue<T> {
         } finally {
             lock.unlock();
         }
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        BoundedQueue<Integer> queue = new BoundedQueue<>(1);
+        queue.add(1);
+        queue.add(1);
+        queue.add(1);
+        queue.add(1);
+        System.out.println(1);
     }
 
 }
